@@ -7,9 +7,44 @@ Use flexbox to:
    row if there's not enough room.
 */
 
+#nav {
+  display: flex;
+  flex-direction: row;
+}
 
+.header1 {
+  word-wrap: break-word;
+  margin-right: 50%;
+}
 
+#gallery {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
+#sub-section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#sub-section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
 /*You don't need to change this unless you want to*/
 body {
